@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Hanidoku_Widget</class>
+ <widget class="QWidget" name="Hanidoku_Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1153</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="ptn_return_mainwindow">
+   <property name="geometry">
+    <rect>
+     <x>991</x>
+     <y>637</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回主菜单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ptn_show_answer">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>570</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看答案</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ptn_ctrl_z">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>500</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>撤回一步</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ptn_check">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>430</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>检查正误</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="output">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>710</y>
+     <width>921</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ptn_sc">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>360</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生成数独</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_3_1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>150</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_9_1">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>570</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_8_1">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>500</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_9_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>570</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_1_1">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>10</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_2_1">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>80</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_4_1">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>220</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_5_1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>290</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_6_1">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>360</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_7_1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>430</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_9_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>570</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_9_4">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>570</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_9_5">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>570</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_8_6">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>500</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_8_5">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>500</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_8_4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>500</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_8_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>500</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_8_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>500</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_7_5">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>430</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_7_4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>430</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_7_3">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>430</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_7_6">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>430</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_7_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>430</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_7_7">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>430</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_6_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>360</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_6_6">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>360</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_6_5">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>360</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_6_4">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>360</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_6_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>360</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_6_7">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>360</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_6_8">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>360</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_5_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>290</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_5_4">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>290</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_5_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>290</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_4_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>220</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_5_8">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>290</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_5_7">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>290</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_5_6">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>290</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_5_5">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>290</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_4_6">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>220</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_4_5">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>220</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_4_4">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>220</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_4_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>220</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_5_9">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>290</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_4_7">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>220</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_4_8">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>220</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_3_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>150</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_3_3">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>150</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_3_4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>150</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_3_5">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>150</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_3_6">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>150</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_3_7">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>150</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_2_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>80</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_2_4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>80</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_2_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>80</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_2_5">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>80</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_2_6">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>80</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_1_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>10</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_1_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>10</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_1_4">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>10</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_1_5">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>10</y>
+     <width>101</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 50%;
+image: url(:/resource/picture/purple3.png);
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: rgb(211, 226, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
